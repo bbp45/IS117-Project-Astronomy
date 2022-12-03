@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: whitesmoke;
+    padding-bottom: 6px;
+    margin-left: 3%;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    /*
+    padding-top: 25px;
+    margin-right: 50%;
+    margin-left: 3%;
+    */
+    color: #dddddd;
+    font-size: 19px;
+}
+
+/* CSS for topnavbar */
+.topnavbar {
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.topnavbar a {
+    color: white;
+    margin-left: 1%;
+}
+
+header .topnavbar img {
+    margin-left: 1%;
+}
+
+.topnavbar #search {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: #ededed;
+}
+
+/* CSS for search bar */
+.topnavbar input[type=text] {
+    float: right;
+    margin-right: 18px;
+}
+
+div .container {
+    margin-left: 2.5%;
+}
+
+.form-group {
+    color: lightgray;
+}
+
+div .form-control {
+    background-color: #ededed;
+    width: 800px;
+}
+
+/* CSS for footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.12rem;
+    border-top: 1px solid #dddddd;
+    background-color: black;
+}

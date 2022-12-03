@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solar System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/orion-cluster.jpg");
+            background-size: cover;
+        }
+        #image-border {
+            border: 1px solid black;
+            padding: 60px;
+            background: url("images/planets-in-order.jpg") no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="topnavbar">
+            <img src="images/crescent-moon.png" alt="crescent moon"
+                 style="width: 60px; height: 60px;"
+            >
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Star Château</a>
+            <label for="search"></label>
+            <input type="text" id="search" placeholder=" Search..." name="search">
+        </div>
+    </header>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recommendations.html">Recommendations</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Milky Way
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="galaxy.html">Galaxy</a>
+                            <a class="dropdown-item" href="solar_system.html">Solar System</a>
+                            <a class="dropdown-item" href="asteroid_belt.html">Asteroids and Comets</a>
+                            <a class="dropdown-item" href="planets_with_moons.html">Planets with Moons</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+</div>
+
+    <br>
+
+    <header>
+        <div id="image-border">
+            <h1>Solar System</h1>
+        </div>
+    </header>
+
+    <br>
+
+    <div style="border-top: 2px solid #dddddd">
+
+    </div>
+
+    <br>
+
+    <!--
+    <img src="images/planets_in_solar_system_4k.jpg" alt="Solar System"
+        style="width: 25%;
+        height: 25%;
+        float: right;
+        margin: 3px 75px 3px 75px;
+        border: 1px solid white;"
+    >
+    -->
+
+<p>
+    The solar system is a system that exists within our home galaxy, the Milky May.
+    It is also where our home planet, Earth, resides. According to one of the theories
+    by the scientists, the solar system was formed from a solar nebula a little less than
+    5 billion years ago, around the same time as the Earth's formation. Originally,
+    there were nine planets as Pluto was counted as one of the planets until 2006. Afterwards,
+    it got categorized as a dwarf planet. Now, there are eight planets in total: four rockey
+    terrestrial planets and four gas giants. The four rockey terrestrial planets are Mercury,
+    Venus, Earth, and Mars. They mainly are made of rock and are the closest to the sun. The
+    four gas giants also known as Jovian planets are Jupiter, Saturn, Uranus, and Neptune.
+    They mainly are made of either gases or ice and are farthest from the sun. Some of these
+    planets apparently even have their own moons, such as our home planet, Earth, Jupiter, Saturn, etc.
+    Earth only has one moon. However, Jupiter is known to have about eighty moons and Saturn is known to
+    have eighty-three moons.
+</p>
+
+    <br><br><br>
+
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Barkha Patel, 2022 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
